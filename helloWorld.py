@@ -2,5 +2,6 @@ import time
 import sys
 
 print("HelloWorld")
-print(sys.argv[1])
+print("Build Number is " + sys.argv[1])
+print("Project name is " + sys.argv[2])
 time.sleep(60)
