@@ -11,6 +11,4 @@ print(status.text)
 #print(startTime.text)
 print(startTime)
 et = endTime.text
-print(et[9:16:1])
-print(endTime.text)
-print("Hello")
+print(et[9:15:1])
