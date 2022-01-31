@@ -13,7 +13,7 @@ startTime = startTime[:2] + ':' + startTime[2:4] + ':' + startTime[4:]
 print(startTime)
 finishTime = finishTime[:2] + ':' + finishTime[2:4] + ':' + finishTime[4:] 
 print(finishTime)
-print(int(duration.text)/1000)
+print(int(duration.text)/(1000*3600))
 
 
 
