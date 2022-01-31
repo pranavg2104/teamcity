@@ -9,7 +9,7 @@ startTime = sys.argv[2]
 endTime = requests.get("http://192.168.0.106:8111/app/rest/builds/buildType:"+sys.argv[1]+"/finishDate",auth = HTTPBasicAuth('admin','admin'))
 print(status.text)
 #print(startTime.text)
-startTime = startTime[:2] + ':' + startTime[2:] + ':' + startTime[2:] 
+startTime = startTime[:2] + ':' + startTime[2:] + ':' + startTime[4:] 
 print(startTime)
 et = endTime.text
 print(et[9:15:1])
