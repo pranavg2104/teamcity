@@ -10,5 +10,7 @@ endTime = requests.get("http://192.168.0.106:8111/app/rest/builds/buildType:"+sy
 print(status.text)
 #print(startTime.text)
 print(startTime)
+et = endTime
+print(et[9:16:1])
 print(endTime.text)
 print("Hello")
