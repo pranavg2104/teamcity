@@ -34,6 +34,7 @@ if __name__ == "__main__":
   finishTime = finishTime[:2] + ':' + finishTime[2:4] + ':' + finishTime[4:] 
   print(finishTime)
   print(int(duration.text)/(1000*3600))
+  startDate = sys.argv[3]
   #kafkaProducer(sys.argv[1],startTime,finishTime,int(duration.text)/(1000*3600),status.text)
 
 
