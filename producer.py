@@ -16,7 +16,7 @@ def kafkaProducer(feature,start,end,duration,status):
         value_serializer=lambda x: dumps(x).encode('utf-8')
     )
     data = {'Feature': feature, 'Build_Status': status , 'Start_Time':start,'End_Time':end,'Total_Duration':duration}
-    producer.send('stla', value=data)
+    producer.send('stla_demo', value=data)
 
 
 if __name__ == "__main__":
